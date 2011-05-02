@@ -1,0 +1,75 @@
+/* Some very simple css stuff to make Tao more developer friendly */
+
+body {
+  margin-top: 30px; /*to avoid the admin menu*/
+  padding: 10px;
+  font-family: Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+#left {
+  float: left;
+  width: 10%;
+  margin-right: 2%;
+}
+
+#main {
+  float: left;
+  width: 85%;
+}
+
+#branding {
+  margin-bottom: 20px;
+}
+
+h1.page-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.form-submit {
+  border: 1px solid #ccc;
+  padding: 3px 10px;
+}
+
+.form-submit:hover {
+  background-color: #eee;
+}
+
+.links li {
+  margin-right: 5px;
+}
+
+.links li.active a{
+  color: #000;
+}
+
+.breadcrumb {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+pre {
+  border: 1px solid #ccc;
+  padding: 5px;
+  background: #eee;
+  font-family: "Andale Mono", "Courier New", monospace;
+  font-size: 11px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+  zoom:1;
+  display: inline-block;
+}

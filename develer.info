@@ -1,0 +1,7 @@
+name = "Develer"
+description = "Super simple theme for developing in."
+base theme = "tao"
+core = "6.x"
+engine = "phptemplate"
+
+stylesheets[screen][] = "core.css"
