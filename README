@@ -1,0 +1,5 @@
+ABOUT
+develer is a simple drupal theme - it subthemes Tao and serves as a design agnostic base for developing.
+
+My hope is that this will help to seperate the development and design/styling of a project or module and allow for better
+collaboration, team work and parallel work.
